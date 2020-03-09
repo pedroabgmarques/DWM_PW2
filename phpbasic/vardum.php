@@ -8,7 +8,6 @@
 <body>
 
 	<?php
-		/*
 		$texto = "Hello world!";
 		$texto2 = 'Hello world!';
 		$numeroInteiro = 123;
@@ -22,17 +21,6 @@
 		$float2 = 1.234;
 
 		echo $float1 ."; ". $float2;
-		*/
-
-		$booleanaTexto = true;
-		$booleanaNumero = 1;
-		var_dump($booleanaTexto);
-		echo "<br>";
-		var_dump($booleanaNumero);
-		echo "<br>";
-		echo ($booleanaTexto == $booleanaNumero);
-		echo "<br>";
-		var_dump($booleanaTexto == $booleanaNumero);
 	?>
 
 </body>
