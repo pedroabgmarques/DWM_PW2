@@ -50,6 +50,14 @@
 			echo "<br>";
 		}
 
+		echo "<br><br>";
+
+		$populacaoCidades = array("Lisboa"=>1000000, "Porto"=>800000, "Braga"=>500000, "Aveiro"=>100000, "Coimbra"=>80000);
+
+		foreach($populacaoCidades as $cidade => $populacao){
+			echo $cidade . " tem " . $populacao ." habitantes.<br>";
+		}
+
 	?>
 
 
